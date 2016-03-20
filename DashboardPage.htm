@@ -1,0 +1,174 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assests/CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="assests/JS/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--<script src="assests/JS/layoutOLd.js" type="text/javascript"></script>-->
+    <script src="assests/JS/Master.js" type="text/javascript"></script>
+    <script src="assests/JS/Dashboard.js" type="text/javascript"></script>
+    <script src="assests/JS/jquery-ui.js" type="text/javascript"></script>
+    <link href="assests/CSS/layout.css" rel="stylesheet" />
+</head>
+<body class="sixteen">
+    <div class="sixteen  mainContent">
+        <div id="mainDiv" style="">
+            <!--Header design starts here-->
+            <div id="header" class="sixteen columns displayBlock" style="margin-top: 3%">
+                <div id="logo" class="two columns" style="width: 15%; padding-top: 0%; margin-left: 5%;">
+                    <img src="assests/images/company.jpg" alt="company Logo" /></div>
+                <div id="mobileheader" class="displayNoneDesktop" style="width: 100%; text-align: center;
+                    font-family: Calibri; font-size: 20px; color: #0084c3; padding-top: 6%;">
+                    Enterprise Applications Store</div>
+                <div id="divTexts" class="nine columns displayNoneMobile" style="color: #0084c3;
+                    margin-left: 10%; padding-top: 2.5%;font-family:Calibri;">
+                    <span>Enterprise Applications Store</span></div>
+            </div>
+            <div id="mobileMenuheader" class="SlideClass">
+                <div class="six columns displayNoneDesktop">
+                    <img id="Img1" style="float: left; margin-top: -1%" src="assests/images/mobileMenu.png"
+                        alt="menuLogo" />
+                </div>
+                <!-- <a href="#">
+                    <input id="mobileMenuHeaderDummy" type="button" value="Menu 1" style="background-color: #ff7f27;
+                        width: 35%; color: White; float: left;" class="four columns shadow marginLeft0per" /></a>-->
+                <div id="menuBar" class="sixteen columns HiddenDiv" style="margin-top: 1%; margin-left: 1.5%">
+                    <a href="Index.html" id="menu1">
+                        <div  class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu1" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per selectedMenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Applications - sel.png" />Applications
+                            </span>
+                        </div>
+                    </a><a href="AdminPage.htm" id="menu2">
+                        <div id="Div1" class="menuItems columns" style="width: 20%">
+                            <span id="btnMenu2" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per ">
+                                <img style="margin-right: 4%;" src="assests/images/Admin.png" />Admin </span>
+                        </div>
+                    </a><a href="DashboardPage.htm" id="menu3">
+                        <div id="Div2" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu3" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Dashboard.png" />
+                                Dashboard</span>
+                        </div>
+                    </a><a href="SupportPage.htm" id="menu4">
+                        <div id="Div3" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu4" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Support.png" />
+                                Support</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="mobileSubMenuHeader">
+                    <a href="#">
+                        <input id="mobilesubMenuHeader" type="button" value="Categories" style="width: 55%;margin-right:5%"
+                            class="four columns shadow marginLeft0per" /></a>
+                    <div id="SubmenuBar" class="sixteen columns displayNoneDesktop" style="margin-top: 1%;">
+                        <div id="Menu2-1">
+                            <a href="#">
+                                <input id="subMenuBtn1" type="button" value="All(2)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-2">
+                            <a href="#">
+                                <input id="subMenuBtn2" type="button" value="Manufacturing(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-3">
+                            <a href="#">
+                                <input id="subMenuBtn3" type="button" value="Finance" style="height: 50px; width: 18%;"
+                                    class="four columns marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-4">
+                            <a href="#">
+                                <input id="subMenuBtn4" type="button" value="Retail(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-5">
+                            <a href="#">
+                                <input id="subMenuBtn5" type="button" value="Logistics" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dashboardContentBox" class="twelve columns displayNone" style="padding-top: 1%; margin-top: 2%; border: 1px solid #000000; border-radius: 7px;float:left;">
+                <center>
+                <div style="padding-left: 5%;">
+                    <select id="dbdd1">
+                        <option value="" selected="selected">Yearly</option>
+                        <option value="">Quarterly</option>
+                        <option value="">Monthly</option>
+                    </select>
+                    <select id="dbdd2">
+                        <option value="" selected="selected">2013</option>
+                        <option value="">2014</option>
+                        <option value="">2015</option>
+                    </select>
+                    <select id="dbdd3">
+                        <!--<option value="Type">Type</option>-->
+                        <option value="dw" selected="selected">Top 5 App Downloads</option>
+                        <option value="pw">Device Platforms</option>
+                        <option value="iw">Domain Wise</option>
+                    </select>
+
+                </div>
+            </center>
+                <div id="dbImage1">
+                    <div id="piechart" style="float: left; border-top: 1px solid #000000; border-bottom: 1px solid #000000; width: 100%; margin-bottom: 2%;">
+                        <center><span id="piechartLabel" ><h4 style="padding-top:2%">Top 5 App Downloads</h4></span></center>
+                    </div>
+                    <center>
+                        <div id="piecart" style="margin-bottom: 2%">
+                            <img class="displayNoneMobile" src="assests/images/piechart.png" />
+                            <img class="displayNoneDesktop" src="assests/images/piechart-mobile.png" />
+                        </div>
+                    </center>
+                </div>
+                <div id="dbImage2">
+                    <div id="barchart" style="float: left; border-top: 1px solid #000000; border-bottom: 1px solid #000000; width: 100%; margin-bottom: 2%;">
+                        <center><span id="barchartLabel"><h4 style="padding-top:2%">Device Platforms</h4></span></center>
+                    </div>
+                    <center>
+                        <div id="barcart" style="margin-bottom: 2%">
+                            <img class="displayNoneMobile" src="assests/images/platformwise.png" />
+                            <img class="displayNoneDesktop" src="assests/images/platformwise-mobile.png" />
+                        </div>
+                    </center>
+                </div>
+                <div id="dbImage3">
+                    <div id="piechart2" style="float: left; border-top: 1px solid #000000; border-bottom: 1px solid #000000; width: 100%; margin-bottom: 2%;">
+                        <center><span id="piechartLabel2"><h4 style="padding-top:2%">Domain Wise</h4></span></center>
+                    </div>
+                    <center>
+                        <div id="piecart2" style="margin-bottom: 2%">
+                            <img class="displayNoneMobile" src="assests/images/industrywise.png" />
+                            <img class="displayNoneDesktop" src="assests/images/industrywise-mobile.png" />
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!--Footer box design Starts here-->
+        <div id="footer" class="sixteen columns" style="margin-left: 12%; width: 73%; margin-top: 1%">
+            <div id="footer1" class="sixteen columns marginLeft0per footerColor" style="font-family: Arial; font-size: 14px; padding-top: 4px; color: grey; text-align: center;">
+                Copyright 2013@company name Inc.
+            </div>
+            <!--<div id="footer2" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 2</div>
+            <div id="footer3" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 3</div>-->
+        </div>
+
+        <!--Footer box design Ends here-->
+        <!--Content box design Ends here-->
+    </div>
+</body>
+</html>

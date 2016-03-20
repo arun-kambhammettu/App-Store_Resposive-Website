@@ -1,0 +1,792 @@
+﻿.displayBlock
+{
+    display: block;
+}
+.marginLeft0Per
+{
+    margin-left: 0% !important;
+}
+
+#mobilesubMenuHeader
+{
+    float: right;
+    margin-right: 4px;
+}
+
+.roundedBorder
+{
+    border-radius: 0.6em;
+}
+
+#msgBox
+{
+    padding-left: 10px;
+}
+#tabData, #tabData1
+{
+    box-shadow: 3px 3px 3px 3px #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f5f5f5;
+}
+
+#tabsSelection input[type=button], #tabsSelection1 input[type=button]
+{
+    width: 100%;
+    height: 38px;
+    border: none;
+    font-size: 12px !important;
+}
+
+#tabsSelection .tabColor, #tabsSelection1 .tabColor
+{
+    color: #660000 !important;
+    background: #F7EDE1; /* Old browsers */
+    background: -moz-linear-gradient(top, #F7EDE1 0%, #EEE1C5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7EDE1), color-stop(100%,#EEE1C5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F7EDE1 0%, #EEE1C5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F7EDE1 0%,#EEE1C5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F7EDE1 0%,#EEE1C5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #F7EDE1 0%,#EEE1C5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7EDE1', endColorstr='#EEE1C5',GradientType=0 ); /* IE6-9 */
+}
+
+.selectedTabColor
+{
+    color: white !important;
+    background: none;
+    background-color: #cf9854 !important;
+}
+
+#tab1 input[type=button], #tab2 input[type=button], #tab4 input[type=button], #tab5 input[type=button]
+{
+    border-right: 1px solid #660000;
+}
+
+#tab11 input[type=button], #tab21 input[type=button], #tab41 input[type=button], #tab51 input[type=button]
+{
+    border-right: 1px solid #660000;
+}
+
+.subMenuTabsColor
+{
+    color: #095377 !important;
+    background: #feffff !important; /* Old browsers */
+    background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 98%, #a0d8ef 100%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(98%,#ddf1f9), color-stop(100%,#a0d8ef)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 98%,#a0d8ef 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #feffff 0%,#ddf1f9 98%,#a0d8ef 100%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #feffff 0%,#ddf1f9 98%,#a0d8ef 100%) !important; /* IE10+ */
+    background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 98%,#a0d8ef 100%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ) !important; /* IE6-9 */
+    border: 1px solid #7DD5FF !important;
+}
+
+.subMenuSelectedTabsColor
+{
+    background: #e4f5fc !important; /* Old browsers */
+    background: -moz-linear-gradient(left, #e4f5fc 0%, #bfe8f9 0%, #9fd8ef 96%, #2ab0ed 96%) !important; /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e4f5fc), color-stop(0%,#bfe8f9), color-stop(96%,#9fd8ef), color-stop(96%,#2ab0ed)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #e4f5fc 0%,#bfe8f9 0%,#9fd8ef 96%,#2ab0ed 96%) !important; /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #e4f5fc 0%,#bfe8f9 0%,#9fd8ef 96%,#2ab0ed 96%) !important; /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #e4f5fc 0%,#bfe8f9 0%,#9fd8ef 96%,#2ab0ed 96%) !important; /* IE10+ */
+    background: linear-gradient(to right, #e4f5fc 0%,#bfe8f9 0%,#9fd8ef 96%,#2ab0ed 96%) !important; /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ) !important; /* IE6-9 */
+    border: 1px solid #7DD5FF !important;
+}
+/*Mobile css*/
+@media only screen and (max-width: 639px)
+{
+    .mainContent
+    {
+        background-color: #F5F5F5;
+        width: 100% !important;
+        min-height: 500px;
+        overflow: hidden;
+        font-family:Verdana,Calibri;
+    }
+
+    #item1, #item2, #item3
+    {
+        border: none !important;
+        height: auto !important;
+        width: 100%;
+    }
+
+
+    #btnMenu3 img, #btnMenu4 img
+    {
+        margin-right: 10px !important;
+    }
+
+    #btnMenu2 img
+    {
+        margin-right: 20px !important;
+    }
+
+    #btnMenu1 img
+    {
+        margin-right: 18px !important;
+    }
+
+    #tabData, #tabData1
+    {
+        display: none;
+    }
+
+    #footer
+    {
+        width: 94% !important;
+    }
+
+    #btnMenu1
+    {
+        border: none;
+        box-shadow: 0px 0px 0px 0px;
+    }
+
+    .menuItems:hover
+    {
+        color: #128FCB !important;
+        background: #0084C3; /* Old browsers */
+        background: -moz-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCCCCC), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #CCCCCC 0%, #FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #CCCCCC 0%,#FFFFFF 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #CCCCCC 0%,#FFFFFF 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #CCCCCC 0%,#FFFFFF 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #CCCCCC;
+    }
+
+    .menuItems span:hover, .menuItems a:hover
+    {
+        color: #128FCB !important;
+    }
+
+    .menuItems
+    {
+        padding: 10px;
+        color: #ffffff !important;
+        background: #0084C3; /* Old browsers */
+        background: -moz-linear-gradient(top, #0084C3 0%, #6AC4EF 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0084C3), color-stop(100%,#6AC4EF)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #0084C3 0%, #6AC4EF 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #0084C3 0%,#6AC4EF 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #0084C3 0%,#6AC4EF 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #0084C3 0%,#6AC4EF 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0084C3', endColorstr='#6AC4EF',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #0084C3;
+        width: 100% !important;
+    }
+
+    .menuItems a
+    {
+        width: 100%;
+    }
+
+    .contactusshadow
+    {
+        box-shadow: 5px 5px 5px #888888;
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 25px;
+        height: auto;
+    }
+
+    #btnMenu, #btnMenu2, #btnMenu3, #btnMenu4
+    {
+        box-shadow: none;
+        border-style: none;
+        text-decoration: none;
+    }
+    #menuBar a
+    {
+        text-decoration: none;
+    }
+    #contentBox, #contentBox1
+    {
+        height: auto !important;
+    }
+    #showitems
+    {
+        box-shadow: 5px 5px 5px #888888; /*border-width: 1px;*/
+        height: auto;
+    }
+    #mobilesubMenuHeader
+    {
+        font-family: Arial !important;
+        font-size: 12pt !important;
+        font-weight: bold;
+        color: #666666;
+        background: #e0e0e0; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e0e0e0 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0e0e0), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #e0e0e0 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #e0e0e0 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #e0e0e0 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #e0e0e0 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+    }
+    #showItems
+    {
+        display: none;
+    }
+    .displayNoneMobile
+    {
+        display: none;
+    }
+    /*  #doctab img
+        {
+            width: 30%;
+            float: left;
+            margin-left: 10%;
+            margin-right: 5%;
+            
+        }*/
+    body
+    {
+        background-color: #f5f5f5;
+    }
+
+
+
+    #mainDiv
+    {
+        width: 100% !important;
+        min-height: 500px;
+    }
+    #logo
+    {
+        width: 35% !important;
+        margin-left: 3% !important;
+    }
+    #header
+    {
+        float: left;
+        width: 100% !important;
+    }
+    .shadow
+    {
+        box-shadow: 5px 5px 5px #888888;
+        border-style: solid;
+        border-width: 1px;
+    }
+    #divTexts
+    {
+        float: right !important;
+        width: 50%;
+    }
+    #text1
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+    #text2
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+    #text3
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+
+    .height20px
+    {
+        height: 20px !important;
+    }
+    #divMobileSliderMenu
+    {
+        margin-top: 2% !important;
+        margin-bottom: 0% !important;
+        width: 70% !important;
+    }
+    #sub-menu
+    {
+        display: none;
+    }
+    #divMobileSliderMenu li
+    {
+        width: 50% !important;
+    }
+    #divmobileMenu
+    {
+        display: none;
+    }
+    #contentBox, #contentBox1
+    {
+        width: 97% !important;
+        margin-left: 3% !important;
+        margin-top: 2% !important;
+    }
+    #textDivRows,   #textDivRows1
+    {
+        float: right !important;
+    }
+    #imageBlock, #textBlock, #textBlock1,#imageBlock1
+    {
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+    #imageBlock, #imageBlock1
+    {
+        width: 40% !important;
+        float: left;
+    }
+    #showItems .image
+    {
+        padding-right: 4%;
+        margin-bottom: 8%;
+    }
+    #textDivRows,  #textDivRows1
+    {
+        width: 50% !important;
+        margin-left: 0% !important;
+    }
+    #secondColumn,    #secondColumn1
+    {
+        width: 100%;
+        clear: both;
+        padding-top: 2% !important;
+    }
+    .tabSelectorNoshadow
+    {
+        border-style: solid;
+        border-width: 1px;
+    }
+    #mobileMenuheader, #mobileSubMenuHeader
+    {
+        display: block;
+        margin-left: 3%;
+        cursor: pointer;
+    }
+
+    #menuBar, #SubmenuBar
+    {
+        display: none;
+        position: absolute;
+        z-index: 999;
+    }
+
+    #menuBar #btnMenu1, #btnMenu2, #btnMenu3, #btnMenu4, #btnMenu5
+    {
+        margin-bottom: 0% !important;
+        height: 20px !important;
+        width: 35% !important;
+    }
+    #SubmenuBar input[type="button"]
+    {
+        margin-bottom: 0% !important;
+        height: 20px !important;
+        width: 35% !important;
+    }
+    #divSubMenu
+    {
+        float: left;
+    }
+    #footer
+    {
+        margin-top: 2%;
+        width: 95%;
+        margin-left: 3% !important;
+        float: left;
+    }
+
+    #footer1
+    {
+        height: 38px;
+    }
+
+
+    #header
+    {
+        margin-bottom: 2% !important;
+    }
+    #textBlock, #textBlock1
+    {
+        margin-left: 2% !important;
+        width: 96% !important;
+        margin-right: 1% !important;
+    }
+    #imageAddrotator, #accordion, #imageAddrotator1, #accordion1
+    {
+        margin-left: 2% !important;
+        width: 96% !important;
+        margin-right: 1% !important;
+    }
+    #tabSelector, #tabs,#tabSelector1, #tabs1
+    {
+        margin-left: 2% !important;
+        width: 96% !important;
+        margin-right: 1% !important;
+    }
+
+    .displayNone
+    {
+        display: none;
+    }
+    #accordion .ui-accordion-content,  #accordion1 .ui-accordion-content
+    {
+        height: auto !important;
+    }
+    #accordion,  #accordion1
+    {
+        margin-top: 2%;
+        padding-bottom: 1%;
+    }
+    #menuBar #btnMenu1, #btnMenu2, #btnMenu3, #btnMenu4, #btnMenu5
+    {
+        height: 30% !important;
+        width: 100% !important;
+    }
+    #SubmenuBar input[type="button"]
+    {
+        height: 45px !important;
+        width: 100% !important;
+        font-size: 12px;
+    }
+    #firstColumn, #firstColumn1
+    {
+        height: 200px;
+    }
+    #firstColumn span, #firstColumn1 span
+    {
+        font-size: 13px;
+    }
+    #imageAddrotator span, #imageAddrotator1 span
+    {
+        font-size: 13px;
+    }
+    #textBlock, #imageBlock, #imageAddrotator, #logo, #textBlock1, #imageBlock1, #imageAddrotator1
+    {
+        text-align: center !important;
+        padding-top: 2%;
+    }
+    #divTexts
+    {
+        text-align: center;
+    }
+    #textDivRows,  #textDivRows1
+    {
+        font-size: 11px !important;
+    }
+    #showItems .name .caption
+    {
+        float: right;
+    }
+    #showItems .image
+    {
+        float: left;
+    }
+    #item1, #item2, #item3
+    {
+        clear: both;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    #showItems
+    {
+        margin-left: 3%;
+    }
+    #adminContentBox1 #dd1, #dd2, #dd3, #dd4, #dd5
+    {
+        padding-top: 0%;
+        padding-bottom: 1%;
+        width: 89%;
+        border-color:#e0e0e0 !important;
+    }
+    #adminContentBox1, #adminContentBox2, #adminContentBox3
+    {
+        border-color: #e0e0e0;
+    }
+    #adminContentBox2 #edd1, #edd2, #edd3, #edd4, #edd5
+    {
+        padding-top: 0%;
+        padding-bottom: 1%;
+        width: 89%;
+         border-color:#e0e0e0 !important;
+    }
+    #adminContentBox3 #updd1, #updd2, #updd3
+    {
+        padding-bottom: 1%;
+        padding-top: 0%;
+        width: 89%;
+         border-color:#e0e0e0 !important;
+    }
+    #mobileAdminMenu #admindd
+    {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    #dashboardContentBox
+    {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 95%;
+    }
+
+    #dashboardContentBox #dbdd1, #dbdd2, #dbdd3
+    {
+        height: 35px !important;
+        border-color: #e0e0e0 !important;
+    }
+    #adminContentBox1 input[type="text"]
+    {
+        width: 90%;
+    }
+    #adminContentBox2 input[type="text"]
+    {
+        width: 90%;
+    }
+    #adminContentBox3 input[type="text"]
+    {
+        width: 90%;
+    }
+    #supportContentBox #logticket #tcktdd
+    {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+}
+
+.footerColor
+{
+    color: #ffffff !important;
+    background: #0084C3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #0084C3 0%, #6AC4EF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0084C3), color-stop(100%,#6AC4EF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #0084C3 0%, #6AC4EF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #0084C3 0%,#6AC4EF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #0084C3 0%,#6AC4EF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #0084C3 0%,#6AC4EF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0084C3', endColorstr='#6AC4EF',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #0084C3;
+}
+
+
+/*#region Desktop CSS*/
+@media only screen and (min-width: 639px)
+{
+    .name, .content
+    {
+        padding-left: 3px;
+        font-size: 14px;
+    }
+
+    .selectedMenuColor
+    {
+        color: #128FCB !important;
+        background: #0084C3; /* Old browsers */
+        background: -moz-linear-gradient(top,  #CCCCCC 0%, #FFFFFF 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CCCCCC), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #CCCCCC 0%, #FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #CCCCCC 0%,#FFFFFF 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #CCCCCC 0%,#FFFFFF 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #CCCCCC 0%,#FFFFFF 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #CCCCCC;
+    }
+
+    .MenuColor
+    {
+        color: #ffffff !important;
+        background: #0084C3; /* Old browsers */
+        background: -moz-linear-gradient(top,  #0084C3 0%, #6AC4EF 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0084C3), color-stop(100%,#6AC4EF)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #0084C3 0%, #6AC4EF 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #0084C3 0%,#6AC4EF 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #0084C3 0%,#6AC4EF 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #0084C3 0%,#6AC4EF 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0084C3', endColorstr='#6AC4EF',GradientType=0 ); /* IE6-9 */
+        border: 1px solid #0084C3;
+    }
+
+    #sub-menu #id1, #id2, #id3, #id4, #id5, #id6
+    {
+        border-left: 1px;
+        border-right: 1px;
+    }
+
+
+
+    .marginTop
+    {
+        margin-top: 5%;
+    }
+
+    #item1, #item2, #item3, #item4, #item5, #item6
+    {
+        box-shadow: 5px 5px 5px #888888; /*border-style: solid;*/
+        border-width: 1px;
+        cursor: pointer;
+        height: 100px;
+    }
+
+    .mainContent
+    {
+        background-color: #F5F5F5;
+        width: 74% !important;
+        margin-left: 14%;
+        min-height: 400px;
+        overflow: hidden;
+    }
+
+    #mainDiv, #footer
+    {
+        margin-left: 12%;
+    }
+
+
+
+    .scrollBar
+    {
+        max-width: 1240px;
+        width: 100%;
+    }
+    #textBlock, #imageBlock, #textDivRows,   #textDivRows1, #imageAddrotator, #logo, #textBlock1, #imageBlock1, #imageAddrotator1
+    {
+        text-align: center !important;
+    }
+    #divTexts
+    {
+        text-align: center;
+        padding-top: 0%;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Times New Roman;
+    }
+
+    #footer1
+    {
+        height: 38px;
+    }
+    .displayNoneDesktop
+    {
+        display: none;
+    }
+    #mobileMenuHeader
+    {
+        display: none;
+    }
+    #mobileSubMenuHeader
+    {
+        display: none;
+    }
+    .contactusshadow
+    {
+        box-shadow: 5px 5px 5px #888888;
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 12px;
+        height: 380px;
+    }
+    .shadow
+    {
+        box-shadow: 5px 5px 5px #e0e0e0;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .tabSelectorNoshadow
+    {
+        border-style: solid;
+        border-width: 1px;
+    }
+    .displayBlock
+    {
+        display: block;
+    }
+    .marginLeft0per
+    {
+        margin-left: 0% !important;
+    }
+    .marginBottom
+    {
+        margin-bottom: 0% !important;
+    }
+    #divmobileMenu
+    {
+        display: none;
+    }
+    #firstColumn, #firstColumn1
+    {
+        margin-left: 3%;
+    }
+    #menuBar #btnMenu1, #btnMenu2, #btnMenu3, #btnMenu4, #btnMenu5
+    {
+        font-family: Arial !important;
+        font-size: 15px !important;
+        font-weight: bold;
+        color: #666666;
+    }
+
+    #textBlock, #textBlock1
+    {
+        font-size: 15px;
+        color: Black;
+        font-weight: bold;
+    }
+    #textDivRows,   #textDivRows1
+    {
+        color: grey;
+        font-size: 12px;
+    }
+    #adminContentBox1 #dd1, #dd2, #dd3, #dd4, #dd5
+    {
+        width: 23.7em !important;
+        padding-top: 0px !important;
+        height: 2.2em !important;
+         border-color:#e0e0e0 !important;
+    }
+    #adminContentBox2 #edd1, #edd2, #edd3, #edd4, #edd5
+    {
+        width: 23.7em !important;
+        padding-top: 2px !important;
+        height: 2.2em !important;
+         border-color:#e0e0e0 !important;
+    }
+    #adminContentBox3 #updd1, #updd2, #updd3
+    {
+        width: 23.7em !important;
+        padding-top: 2px !important;
+        height: 2.2em !important;
+         border-color:#e0e0e0 !important;
+    }
+    #adminContentBox1, #adminContentBox2, #adminContentBox3
+    {
+        border-color: #e0e0e0;
+    }
+    #dashboardContentBox
+    {
+        margin-left: 4.5%;
+        margin-right: 1%;
+    }
+
+    #dashboardContentBox #dbdd1, #dbdd2, #dbdd3
+    {
+        height: 35px !important;
+        border-color: #e0e0e0 !important;
+    }
+    #supportContentBox #logticket #tcktdd
+    {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .shadowBorder
+    {
+        box-shadow: 5px 5px 5px #e0e0e0;
+        background-color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 25px;
+        height: 380px;
+    }
+
+}
+/*#endregion Desktop CSS*/

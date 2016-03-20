@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assests/CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/layout.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/SupportStyles.css" rel="stylesheet" type="text/css" />
+    <script src="assests/JS/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--   <script src="assests/JS/layoutOLd.js" type="text/javascript"></script>-->
+    <script src="assests/JS/Master.js" type="text/javascript"></script>
+    <script src="assests/JS/Admin.js" type="text/javascript"></script>
+    <script src="assests/JS/jquery-ui.js" type="text/javascript"></script>
+</head>
+<body class="sixteen">
+    <div class="sixteen  mainContent">
+        <div id="mainDiv" style="">
+            <!--Header design starts here-->
+           <div id="header" class="sixteen columns displayBlock" style="margin-top: 3%">
+                <div id="logo" class="two columns" style="width: 15%; padding-top: 0%; margin-left: 5%;">
+                    <img src="assests/images/company.jpg" alt="company Logo" />
+                </div>
+                <div id="mobileheader" class="displayNoneDesktop" style="width: 100%; text-align: center; font-family: Calibri; font-size: 20px; color: #0084c3; padding-top: 6%;">
+                    Enterprise Applications Store
+                </div>
+                <div id="divTexts" class="nine columns displayNoneMobile" style="color: #0084c3; margin-left: 10%; padding-top: 2.5%;font-family:Calibri;">
+                    <span>Enterprise Applications Store</span>
+                </div>
+            </div>
+            <div id="mobileMenuheader">
+                <div class="six columns displayNoneDesktop">
+                    <img id="mobileMenuHeader" style="float: left; margin-top: -1%" src="assests/images/mobileMenu.png"
+                        alt="menuLogo" />
+                </div>
+                <!-- <a href="#">
+                    <input id="mobileMenuHeaderDummy" type="button" value="Menu 1" style="background-color: #ff7f27;
+                        width: 35%; color: White; float: left;" class="four columns shadow marginLeft0per" /></a>-->
+                <div id="menuBar" class="sixteen columns HiddenDiv" style="margin-top: 1%; margin-left: 1.5%">
+                    <a href="Index.html" id="menu1">
+                        <div  class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu1" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per selectedMenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Applications - sel.png" />Applications
+                            </span>
+                        </div>
+                    </a><a href="AdminPage.htm" id="menu2">
+                        <div id="Div17" class="menuItems columns" style="width: 20%">
+                            <span id="btnMenu2" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per ">
+                                <img style="margin-right: 4%;" src="assests/images/Admin.png" />Admin </span>
+                        </div>
+                    </a><a href="DashboardPage.htm" id="menu3">
+                        <div id="Div18" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu3" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Dashboard.png" />
+                                Dashboard</span>
+                        </div>
+                    </a><a href="SupportPage.htm" id="menu4">
+                        <div id="Div19" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu4" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Support.png" />
+                                Support</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="mobileSubMenuHeader">
+                    <a href="#">
+                        <input id="mobilesubMenuHeader" type="button" value="Categories" style="width: 55%;margin-right:5%"
+                            class="four columns shadow marginLeft0per" /></a>
+                    <div id="SubmenuBar" class="sixteen columns displayNoneDesktop" style="margin-top: 1%;">
+                        <div id="Menu2-1">
+                            <a href="#">
+                                <input id="subMenuBtn1" type="button" value="All(2)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-2">
+                            <a href="#">
+                                <input id="subMenuBtn2" type="button" value="Manufacturing(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-3">
+                            <a href="#">
+                                <input id="subMenuBtn3" type="button" value="Finance" style="height: 50px; width: 18%;"
+                                    class="four columns marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-4">
+                            <a href="#">
+                                <input id="subMenuBtn4" type="button" value="Retail(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-5">
+                            <a href="#">
+                                <input id="subMenuBtn5" type="button" value="Logistics" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen columns" style="margin-top: 2%; float: left">
+                <div id="sub-menu" class="three columns" style="margin-top: 1%; margin-left: 3%; height: 620px;">
+                    <div class="three columns" style="width: 95%">
+                        <ul>
+                            <li id="bid1" style="height: 40px;" class="marginBottom">
+                                <div id="id1" style="width: 100%; font-size:14px; font-weight:bold; height: 100%; cursor: default; padding-top:15px; padding-left:10px;" class="">Categories</div>
+                                <!--<input id="id1" type="text" readonly="readonly" style="width: 100%; height: 100%;
+                                    cursor: default;" class="subMenuTabsColor"/>-->
+                            </li>
+                            <li id="bid2" style="height: 50px;" class="marginBottom">
+                                <div id="id2" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuSelectedTabsColor submenuItems">All(2)</div>
+                            <li id="bid3" style="height: 50px;" class="marginBottom">
+                                <div id="id3" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Manufacturing(1)</div>
+                            <li id="bid4" style="height: 50px; color: Black;" class="marginBottom">
+                                 <div id="id4" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Finance</div>
+                            <li id="bid5" style="height: 50px; color: Black;" class="marginBottom">
+                                <div id="id5" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Retail(1)</div>
+                            <li id="bid6" style="height: 50px; color: Black;" class="marginBottom">
+                                <div id="id6" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Logistics</div>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- <div id="contentBox" class="eleven columns shadowBorder" style="height: 600px; margin-top: 1%;float: left; width: 47%;">
+                </div>-->
+                <div id="adminContentBox1" class="eleven columns shadow Supportshadow" style="background-color: #f5f5f5; margin-top: 1%; float: left; padding-left: 2%; margin-left: 2%; margin-right: 2%; color: Black;">
+                    <div id="tabHeader" style="margin-top: 1%;border-color:#e0e0e0;">
+                        <span style="font-weight: bold; font-size: 16px; color: Black;">Add App</span><hr />
+                    </div>
+                    <div id="">
+                        <span id="applicationLabel" style="font-size: 12px;">Application</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="">
+                        <span id="organizationLabel" style="font-size: 12px;">Organization</span>
+                        <div>
+                            <!--  <span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Please select Organization</span><span
+                                class="ui-icon ui-icon-arrow-d ui-icon-shadow"></span></span>-->
+                            <select id="dd1">
+                                <option value="" selected="selected">Please select Organization</option>
+                                <option value="">All</option>
+                                <option value="">PMUSA</option>
+                                <option value="">USSTB</option>
+                                <option value="">JMC</option>
+                            </select>
+                        </div>
+            </div>
+                    <div>
+                        <span id="applicationtype" style="font-size: 12px;">Application Type*</span>
+                        <div>
+                            <select id="dd2">
+                                <option value="" selected="selected">Please select app type</option>
+                                <option value="">Web</option>
+                                <option value="">Native</option>
+                            </select>
+                        </div>
+                    </div>
+            <div>
+                <span id="accesstype" style="font-size: 12px;">Access Type*</span>
+                <div>
+                    <select id="dd3">
+                        <option value="" selected="selected">Please select Access type</option>
+                        <option value="">Pulic</option>
+                        <option value="">Restricted</option>
+                        <option value="">Private</option>
+                    </select>
+                </div>
+            </div>
+            <div id="descriptionLabelDiv">
+                <span id="descriptionLabel" style="font-size: 12px;">Description*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="appVersionDiv">
+                <span id="applicationVersionLabel" style="font-size: 12px;">Application Version*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div>
+                <span id="applicationindustry" style="font-size: 12px;">Application Domain*</span>
+                <div>
+                    <select id="dd4">
+                        <option value="" selected="selected">Please Select Domain</option>
+                        <option value="hi" >All</option>
+                        <option value="hi" >Manufacturing</option>
+                        <option value="mrl">Logistics</option>
+                        <option value="bfs">Retail</option>
+                        <option value="bfs">Finance</option>
+                    </select>
+                </div>
+            </div>
+            <div id="appowner">
+                <span id="appownerLabel" style="font-size: 12px;">Application Owner*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="appowneremail">
+                <span id="appownerEmail" style="font-size: 12px;">Application Owner Email*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="appownerdepart">
+                <span id="appownerDepartment" style="font-size: 12px;">Application Owner Department*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div>
+                <span id="appownerDesig" style="font-size: 12px; padding-right: 2%;">Application Owner
+                            Designation*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="appownerdetails">
+                <span id="appownerDetails" style="font-size: 12px;">Application Owner Details*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="mainfeatures">
+                <span id="mainFeatures" style="font-size: 12px;">Main Features*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="appspecification">
+                <span id="appSpecification" style="font-size: 12px;">Application Specification*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="releasedate">
+                <span id="releaseDate" style="font-size: 12px;">Release Date*</span><br />
+                <input type="text" size="40" />
+            </div>
+            <div id="uploadapplogo">
+                <span id="uploadAppLogo" style="font-size: 12px;">Upload Application Logo*</span><br />
+                <input type="button" value="Choose file" style="margin-right: 1%;" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+            </div>
+            <div id="uploadappshot">
+                <span id="uploadAppShot" style="font-size: 12px;">Upload Application Screenshot*</span><br />
+                <input type="button" value="Choose file" style="margin-right: 1%;" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+            </div>
+            <div id="uploadvideo">
+                <span id="uploadVideo" style="font-size: 12px;">Upload Video*</span><br />
+                <input type="button" value="Choose file" style="margin-right: 1%;" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+            </div>
+            <div>
+                <span id="uplaodDoc" style="font-size: 12px;">Upload Document*</span>
+                <div>
+                    <select id="dd5">
+                        <option value="" selected="selected">Please select Document Category</option>
+                        <option value="">Installation Guide</option>
+                        <option value="">Operational Guide</option>
+                        <option value="">Technical Guide</option>
+                    </select>
+                </div>
+            </div>
+            <div id="uploadBtn" style="margin-top: 2%;">
+                <input type="button" value="Upload" style="width: 20%; text-align: center;" />
+            </div>
+            </div>
+                <div id="adminContentBox2" class="eleven columns shadow Supportshadow" style="background-color: #f5f5f5; margin-top: 1%; float: left; padding-left: 2%; margin-left: 2%; margin-right: 2%; color: Black;">
+                    <div id="tabHeader2" style="margin-top: 1%;border-color:#e0e0e0;">
+                        <span style="font-weight: bold; font-size: 16px; color: Black;">Edit App</span><hr />
+                    </div>
+                    <div id="app">
+                        <span id="Span1" style="font-size: 12px;">Application</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div1">
+                        <span id="Span2" style="font-size: 12px;">Organization</span>
+                        <div>
+                            <select id="edd1">
+                                <option value="" selected="selected">Please select Organization</option>
+                               <option value="">All</option>
+                                <option value="">PMUSA</option>
+                                <option value="">USSTB</option>
+                                <option value="">JMC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <span id="Span3" style="font-size: 11px;">Application Type*</span>
+                        <div>
+                            <select id="edd2">
+                                <option value="" selected="selected">Please select app type</option>
+                                <option value="">Web</option>
+                                <option value="">Native</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <span id="Span4" style="font-size: 12px;">Access Type*</span>
+                        <div>
+                            <select id="edd3">
+                                <option value="" selected="selected">Please select Access type</option>
+                                <option value="">Pulic</option>
+                                <option value="">Restricted</option>
+                                <option value="">Private</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="Div2">
+                        <span id="Span5" style="font-size: 12px;">Application Version*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div>
+                        <span id="Span6" style="font-size: 12px;">Application Industry*</span>
+                        <div>
+                            <select id="edd4">
+                                <option value="" selected="selected">Please Select Domain</option>
+                                <option value="hi" >All</option>
+                                <option value="hi" >Manufacturing</option>
+                                <option value="mrl">Logistics</option>
+                                <option value="bfs">Retail</option>
+                                <option value="bfs">Finance</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="Div3">
+                        <span id="Span7" style="font-size: 12px;">Application Owner*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div4">
+                        <span id="Span8" style="font-size: 12px; visibility: hidden">Application Owner Email*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div5">
+                        <span id="Span9" style="font-size: 12px;">Application Owner Department*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div>
+                        <span id="Span10" style="font-size: 12px; padding-right: 2%;">Application Owner Designation*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div6">
+                        <span id="Span11" style="font-size: 12px;">Application Owner Details*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div7">
+                        <span id="Span12" style="font-size: 12px;">Main Features*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div8">
+                        <span id="Span13" style="font-size: 12px;">Application Specification*</span><br />
+                        <input type="text" size="40" />
+                    </div>
+                    <div id="Div9">
+                        <span id="Span14" style="font-size: 12px;">Release Date*</span><br />
+                        <input type="text" size="40"/>
+                    </div>
+                    <div id="Div10">
+                        <span id="Span15" style="font-size: 12px;">Upload Application Logo*</span><br />
+                        <input type="button" value="Choose file" style="margin-right: 1%;" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+                    </div>
+                    <div id="Div11">
+                        <span id="Span16" style="font-size: 12px;">Upload Application Screenshot*</span><br />
+                        <input type="button" value="Choose file" style="margin-right: 1%;" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+                    </div>
+                    <div id="Div12">
+                        <span id="Span17" style="font-size: 12px;">Upload Video*</span><br />
+                        <input type="button" value="Choose file" style="margin-right: 1%" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+                    </div>
+                    <div>
+                        <span id="Span18" style="font-size: 12px;">Upload Document*</span>
+                        <div>
+                            <select id="edd5">
+                                <option value="" selected="selected">Please select Document Category</option>
+                                <option value="">Installation Guide</option>
+                                <option value="">Operational Guide</option>
+                                <option value="">Technical Guide</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <input type="button" value="Choose file" style="margin-right: 1%" /><span style="font-family: Sans-Serif; font-size: 13px; color: grey;">No file Chosen</span>
+                    <div id="saveBtn" style="margin-top: 2%;">
+                        <input type="button" value="Save" style="width: 20%; text-align: center;" />
+                    </div>
+                </div>
+            <div id="adminContentBox3" class="eleven columns shadow Supportshadow" style="background-color: #f5f5f5; margin-top: 1%; float: left; padding-left: 2%; margin-left: 2%; margin-right: 2%; color: Black;">
+                <div id="tabHeader3" style="margin-top: 1%;border-color:#e0e0e0;">
+                    <span style="font-weight: bold; font-size: 16px; color: Black;">Upcoming App</span><hr />
+                </div>
+                <div id="Div13">
+                    <span id="Span19" style="font-size: 12px;">Application Name*</span><br />
+                    <input type="text" size="40" />
+                </div>
+                <div id="Div14">
+                    <span id="Span20" style="font-size: 12px;">Application Description*</span><br />
+                    <input type="text" size="40" />
+                </div>
+                <div id="Div15">
+                    <span id="Span21" style="font-size: 12px;">Application Details*</span><br />
+                    <input type="text" size="40" />
+                </div>
+                <div id="Div16">
+                    <span id="Span22" style="font-size: 12px;">Release Date</span>
+                    <div>
+                        <select id="updd1">
+                            <option value="" selected="selected">Select Quarter</option>
+                            <option value="">Q1</option>
+                            <option value="">Q2</option>
+                            <option value="">Q3</option>
+                            <option value="">Q4</option>
+                        </select>
+                        <select id="updd2">
+                            <option value="" selected="selected">2013</option>
+                            <option value="">2013</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <select id="updd3">
+                        <option value="" selected="selected">Select Platform</option>
+                        <option value="">Web-App</option>
+                        <option value="">Andriod</option>
+                        <option value="">iPhone</option>
+                        <option value="">Blackberry</option>
+                    </select>
+                </div>
+                <div id="addBtn" style="margin-top: 2%;">
+                    <input type="button" value="Add" style="width: 20%; text-align: center;" />
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Footer box design Starts here-->
+           <div id="footer" class="sixteen columns" style="margin-left: 12%; width: 73%; margin-top: 1%;clear:both;">
+                <div id="footer1" class="sixteen columns marginLeft0per footerColor" style="font-family: Arial;
+                    font-size: 14px; padding-top: 4px; color: grey; text-align: center;">
+                    Copyright 2013@company name Inc.</div>
+                <!--<div id="footer2" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 2</div>
+            <div id="footer3" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 3</div>-->
+            </div>
+        <!--Footer box design Ends here-->
+        <!--Content box design Ends here-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assests/CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/layout.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="assests/JS/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--<script src="assests/JS/layoutOLd.js" type="text/javascript"></script>-->
+    <script src="assests/JS/Master.js" type="text/javascript"></script>
+    <script src="assests/JS/Application.js" type="text/javascript"></script>
+    <script src="assests/JS/jquery-ui.js" type="text/javascript"></script>
+      <script src="assests/JS/slider.js" type="text/javascript"></script>
+        <script src="assests/JS/jquery.flexslider.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="sixteen mainContent">
+        <div id="mainDiv" style="">
+            <!--Header design starts here-->
+            <div id="header" class="sixteen columns displayBlock" style="margin-top: 3%">
+                <div id="logo" class="two columns" style="width: 15%; padding-top: 0%; margin-left: 5%;">
+                    <img src="assests/images/company.jpg" alt="Logo" /></div>
+                <div id="mobileheader" class="two columns displayNoneDesktop" style="width: 100%;
+                    text-align: center; font-family: Calibri; font-size: 20px; color: #0084c3; padding-top: 6%;">
+                    Enterprise Applications Store</div>
+                <div id="divTexts" class="nine columns displayNoneMobile" style="color: #0084c3;
+                    margin-left: 10%; padding-top: 2.5%; font-family: Calibri;">
+                    <span>Enterprise Applications Store</span></div>
+            </div>
+            <div id="mobileMenuheader">
+                <div class="six columns displayNoneDesktop">
+                    <img id="mobileMenuHeader" style="float: left; margin-top: -1%" src="assests/images/mobileMenu.png"
+                        alt="menuLogo" /></div>
+                <!-- <a href="#">
+                    <input id="mobileMenuHeaderDummy" type="button" value="Menu 1" style="background-color: #ff7f27;
+                        width: 35%; color: White; float: left;" class="four columns shadow marginLeft0per" /></a>-->
+                <div id="menuBar" class="sixteen columns HiddenDiv" style="margin-top: 1%; margin-left: 1.5%;">
+                    <a href="Index.html" id="menu1">
+                        <div class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu1" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per selectedMenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Applications - sel.png" />Applications
+                            </span>
+                        </div>
+                    </a><a href="AdminPage.htm" id="menu2">
+                        <div id="Div1" class="menuItems columns" style="width: 20%">
+                            <span id="btnMenu2" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per ">
+                                <img style="margin-right: 4%;" src="assests/images/Admin.png" />Admin </span>
+                        </div>
+                    </a><a href="DashboardPage.htm" id="menu3">
+                        <div id="Div2" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu3" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Dashboard.png" />
+                                Dashboard</span>
+                        </div>
+                    </a><a href="SupportPage.htm" id="menu4">
+                        <div id="Div3" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu4" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Support.png" />
+                                Support</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="mobileSubMenuHeader">
+                    <a href="#">
+                        <input id="mobilesubMenuHeader" type="button" value="Categories" style="width: 55%;
+                            margin-right: 5%" class="four columns shadow marginLeft0per" /></a>
+                    <div id="SubmenuBar" class="sixteen columns displayNoneDesktop" style="margin-top: 1%;">
+                        <div id="Menu2-1">
+                            <a href="#">
+                                <input id="subMenuBtn1" type="button" value="All(2)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-2">
+                            <a href="#">
+                                <input id="subMenuBtn2" type="button" value="Manufacturing(1)" style="height: 50px;
+                                    width: 18%;" class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-3">
+                            <a href="#">
+                                <input id="subMenuBtn3" type="button" value="Finance" style="height: 50px; width: 18%;"
+                                    class="four columns marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-4">
+                            <a href="#">
+                                <input id="subMenuBtn4" type="button" value="Retail(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-5">
+                            <a href="#">
+                                <input id="subMenuBtn5" type="button" value="Logistics" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen columns" style="margin-top: 2%; float: left">
+                <div id="sub-menu" class="three columns" style="margin-top: 1%; margin-left: 3%;
+                    height: 620px;">
+                    <div class="three columns" style="width: 95%">
+                        <ul>
+                            <li id="bid1" style="height: 40px;" class="marginBottom">
+                                <div id="id1" style="width: 100%; font-size: 14px; font-weight: bold; height: 100%;
+                                    cursor: default; padding-top: 15px; padding-left: 10px;" class="">
+                                    Categories</div>
+                                <!--<input id="id1" type="text" readonly="readonly" style="width: 100%; height: 100%;
+                                    cursor: default;" class="subMenuTabsColor"/>-->
+                            </li>
+                            <li id="bid2" style="height: 50px;" class="marginBottom">
+                                <div id="id2" style="width: 100%; height: 100%; cursor: pointer; padding-top: 15px;
+                                    padding-left: 10px;" class="subMenuSelectedTabsColor submenuItems">
+                                    All(2)</div>
+                                <li id="bid3" style="height: 50px;" class="marginBottom">
+                                    <div id="id3" style="width: 100%; height: 100%; cursor: pointer; padding-top: 15px;
+                                        padding-left: 10px;" class="subMenuTabsColor submenuItems">
+                                        Manufacturing(1)</div>
+                                    <li id="bid4" style="height: 50px; color: Black;" class="marginBottom">
+                                        <div id="id4" style="width: 100%; height: 100%; cursor: pointer; padding-top: 15px;
+                                            padding-left: 10px;" class="subMenuTabsColor submenuItems">
+                                            Finance</div>
+                                        <li id="bid5" style="height: 50px; color: Black;" class="marginBottom">
+                                            <div id="id5" style="width: 100%; height: 100%; cursor: pointer; padding-top: 15px;
+                                                padding-left: 10px;" class="subMenuTabsColor submenuItems">
+                                                Retail(1)</div>
+                                            <li id="bid6" style="height: 50px; color: Black;" class="marginBottom">
+                                                <div id="id6" style="width: 100%; height: 100%; cursor: pointer; padding-top: 15px;
+                                                    padding-left: 10px;" class="subMenuTabsColor submenuItems">
+                                                    Logistics</div>
+                        </ul>
+                    </div>
+                </div>
+                <div id="msgBox" class="eleven columns" style="margin-top: 1%; display: none; height: 410px;">
+                    No Items to display at present , Please check later!! Thank You
+                </div>
+                <div id="showItems" class="eleven columns" style="margin-top: 1%;">
+                    <div id="item1" class="four columns" style="margin-left: 1%; height: 180px; margin-right: 2%;
+                        border: 2px solid grey;">
+                        <div class="image">
+                            <img src="assests/images/icon@2x.png" alt="ABC image" /></div>
+                        <div style="height: 100%;">
+                            <div class="name">
+                                <b><i>ABC</i></b></div>
+                            <div class="content">
+                                Android App</div>
+                        </div>
+                    </div>
+                    <div id="item2" class="four columns" style="margin-left: 1%; height: 180px; margin-right: 2%;
+                        border: 2px solid grey;">
+                        <div class="image">
+                            <img src="assests/images/ConvertorIcon.png" alt="Retail image" /></div>
+                        <div class="name">
+                            <b><i>XYZ</i></b></div>
+                        <div class="content">
+                            XYZ App</div>
+                    </div>
+                </div>
+                <div id="contentBox" class="eleven columns shadowBorder" style="height: 600px; margin-top: 1%;
+                    float: left; width: 61%;">
+                    <div id="firstColumn" class="four columns" style="margin-top: 2%; margin-bottom: 2%;
+                        border: 0px solid black; clear: both; margin-right: 2%; margin-left: 2%;">
+                        <div id="textBlock" class="six columns" style="height: 40px; width: 100%; margin-top: 2%;
+                            margin-left: 2%;">
+                            <span>ABC</span></div>
+                        <div id="imageBlock" class="six columns" style="height: 100px; width: 100%; margin-top: 2%;
+                            margin-left: 2%;">
+                        </div>
+                        <div id="textDivRows" class="six columns " style="width: 100%; margin-top: 0%; margin-left: 2%;
+                            margin-right: 2%; text-align: left !important">
+                            <br />
+                            Category:<br />
+                            <b>Manufacturing</b>
+                            <br />
+                            No.of Downloads:
+                            <br />
+                            <b>25</b><br />
+                            Release Date:<br />
+                            <b>06-Mar-2013</b>
+                            <br />
+                            <img alt="rating" src="assests/images/rating.png" style="height: 30px; width: auto" />
+                            <br />
+                            <input id="Button1" type="button" value="Get Link" style="margin-top: 10px;" class="selectedTabColor" />
+                        </div>
+                    </div>
+                    <div id="secondColumn" class="eleven columns" style="margin-top: 2%;">
+                        <div id="imageAddrotator" class="flexslider fifteen columns shadow" style="height: 160px;
+                            margin-top: 1%;">
+                            <!-- <span>Image Add rotator</span>-->
+                            <ul class="slides">
+                                <li>
+                                    <img src="assests/images/ConvertorIcon.png" />
+                                </li>
+                                <li>
+                                    <img src="assests/images/touch-icon-ipad.jpg" />
+                                </li>
+                                <li>
+                                    <img src="assests/images/icon@2x.png" />
+                                </li>
+                                <li>
+                                    <img src="slide4.jpg" alt="no image"/>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tabData" class="fifteen columns marginLeft0Per roundedBorder" style="height: auto;
+                            margin-top: 3%;">
+                            <div id="tabSelector" class="sixteen columns marginLeft0Per">
+                                <div id="tabsSelection" class="sixteen columns">
+                                    <div id="tabDivision" class="sixteen columns">
+                                        <div id="tab1" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn1" type="button" value="Overview" class="selectedTabColor" /></div>
+                                        <div id="tab2" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn2" type="button" value="Main Features" class="tabColor" /></div>
+                                        <div id="tab3" class="columns  marginLeft0per" style="height: 40px; width: 34%; float: right;">
+                                            <input id="btn3" type="button" value="Specifications" class="tabColor" /></div>
+                                    </div>
+                                    <div class="sixteen columns marginLeft0Per">
+                                        <div id="tab4" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn4" type="button" value="Artifacts" class="tabColor" /></div>
+                                        <div id="tab5" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn5" type="button" value="Demo/Video" class="tabColor" /></div>
+                                        <div id="tab6" class="columns  marginLeft0per" style="height: 40px; width: 34%; padding-top: 1px;">
+                                            <input id="btn6" type="button" value="Contact" class="tabColor" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs" class="columns" style="height: 310px; width: 95%; margin-left: 2%;
+                                font-family: sans-serif; font-size: 12px;">
+                                <span>selected tab</span></div>
+                        </div>
+                    </div>
+                    <div id="accordianMobileView" class="sixteen columns displayNoneDesktop">
+                        <div id="accordion">
+                            <h3>
+                                Overview</h3>
+                            <div>
+                                <p>
+                                    An application for board members for viewing board meeting documents on the fly</p>
+                            </div>
+                            <h3>
+                                Main Features</h3>
+                            <div>
+                                <p>
+                                    Ability to view messages sent by company secretary on home screen
+                                </p>
+                            </div>
+                            <h3>
+                                Specifications</h3>
+                            <div>
+                                <p>
+                                    Application is developerd using native iOS SDK
+                                </p>
+                                <ul>
+                                    <li>List item one</li>
+                                    <li>List item two</li>
+                                    <li>List item three</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                Artifacts</h3>
+                            <div>
+                                <p>
+                                    User Guide
+                                </p>
+                            </div>
+                            <h3>
+                                Demo/Video</h3>
+                            <div>
+                                <p>
+                                </p>
+                            </div>
+                            <h3>
+                                Contact</h3>
+                            <div>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contentBox1" class="eleven columns shadowBorder" style="height: 600px; margin-top: 1%;
+                    float: left; width: 61%;">
+                    <div id="firstColumn1" class="four columns" style="margin-top: 2%; margin-bottom: 2%;
+                        border: 0px solid black; clear: both; margin-right: 2%; margin-left: 2%;">
+                        <div id="textBlock1" class="six columns" style="height: 40px; width: 100%; margin-top: 2%;
+                            margin-left: 2%;">
+                            <span>XYZ</span></div>
+                        <div id="imageBlock1" class="six columns" style="height: 100px; width: 100%; margin-top: 2%;
+                            margin-left: 2%;">
+                        </div>
+                        <div id="textDivRows1" class="six columns " style="width: 100%; margin-top: 0%; margin-left: 2%;
+                            margin-right: 2%; text-align: left !important">
+                            <br />
+                            Category:<br />
+                            <b>Retail</b>
+                            <br />
+                            No.of Downloads:
+                            <br />
+                            <b>52</b><br />
+                            Release Date:<br />
+                            <b>01-Feb-2013</b>
+                            <br />
+                            <img alt="rating" src="assests/images/rating.png" style="height: 30px; width: auto" />
+                            <br />
+                            <input id="Button2" type="button" value="Get Link" style="margin-top: 10px;" class="selectedTabColor" />
+                        </div>
+                    </div>
+                    <div id="secondColumn1" class="eleven columns" style="margin-top: 2%;">
+                        <div id="imageAddrotator1" class="fifteen columns shadow" style="height: 160px; margin-top: 1%;">
+                            <span>XYZ Add rotator</span></div>
+                        <div id="tabData1" class="fifteen columns marginLeft0Per roundedBorder" style="height: auto;
+                            margin-top: 3%;">
+                            <div id="tabSelector1" class="sixteen columns marginLeft0Per">
+                                <div id="tabsSelection1" class="sixteen columns">
+                                    <div id="Div8" class="sixteen columns">
+                                        <div id="tab11" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn11" type="button" value="Overview" class="selectedTabColor" /></div>
+                                        <div id="tab21" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn21" type="button" value="Main Features" class="tabColor" /></div>
+                                        <div id="Div11" class="columns  marginLeft0per" style="height: 40px; width: 34%;
+                                            float: right;">
+                                            <input id="btn31" type="button" value="Specifications" class="tabColor" /></div>
+                                    </div>
+                                    <div class="sixteen columns marginLeft0Per">
+                                        <div id="tab41" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn41" type="button" value="Artifacts" class="tabColor" /></div>
+                                        <div id="tab51" class="columns  marginLeft0per" style="height: 40px; width: 33%;">
+                                            <input id="btn51" type="button" value="Demo/Video" class="tabColor" /></div>
+                                        <div id="Div14" class="columns  marginLeft0per" style="height: 40px; width: 34%;
+                                            padding-top: 1px;">
+                                            <input id="btn61" type="button" value="Contact" class="tabColor" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tabs1" class="columns" style="height: 310px; width: 95%; margin-left: 2%;
+                                font-family: sans-serif; font-size: 12px;">
+                                <span>selected tab</span></div>
+                        </div>
+                    </div>
+                    <div id="Div15" class="sixteen columns displayNoneDesktop">
+                        <div id="accordion1">
+                            <h3>
+                                Overview</h3>
+                            <div>
+                                <p>
+                                    An application for board members for viewing board meeting documents on the fly</p>
+                            </div>
+                            <h3>
+                                Main Features</h3>
+                            <div>
+                                <p>
+                                    Ability to view messages sent by company secretary on home screen
+                                </p>
+                            </div>
+                            <h3>
+                                Specifications</h3>
+                            <div>
+                                <p>
+                                    Application is developerd using native iOS SDK
+                                </p>
+                                <ul>
+                                    <li>List item one</li>
+                                    <li>List item two</li>
+                                    <li>List item three</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                Artifacts</h3>
+                            <div>
+                                <p>
+                                    User Guide
+                                </p>
+                            </div>
+                            <h3>
+                                Demo/Video</h3>
+                            <div>
+                                <p>
+                                </p>
+                            </div>
+                            <h3>
+                                Contact</h3>
+                            <div>
+                                <p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer box design Starts here-->
+        <div id="footer" class="sixteen columns" style="margin-left: 12%; width: 73%; margin-top: 1%;
+            clear: both;">
+            <div id="footer1" class="sixteen columns marginLeft0per footerColor" style="font-family: Arial;
+                font-size: 14px; padding-top: 4px; color: grey; text-align: center;">
+                Copyright 2013@Company name Inc.</div>
+            <!--<div id="footer2" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 2</div>
+            <div id="footer3" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 3</div>-->
+        </div>
+        <!--Footer box design Ends here-->
+        <!--Content box design Ends here-->
+    </div>
+</body>
+</html>

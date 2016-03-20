@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assests/CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/layout.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="assests/CSS/SupportStyles.css" rel="stylesheet" type="text/css" />
+    <script src="assests/JS/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--<script src="assests/JS/layoutOLd.js" type="text/javascript"></script>-->
+    <script src="assests/JS/Master.js" type="text/javascript"></script>
+    <script src="assests/JS/Support.js" type="text/javascript"></script>
+    <script src="assests/JS/jquery-ui.js" type="text/javascript"></script>
+
+</head>
+<body class="sixteen">
+    <div class="sixteen  mainContent">
+        <div id="mainDiv" style="">
+            <!--Header design starts here-->
+            <div id="header" class="sixteen columns displayBlock" style="margin-top: 3%">
+                <div id="logo" class="two columns" style="width: 15%; padding-top: 0%; margin-left: 5%;">
+                    <img src="assests/images/company.jpg" alt="company Logo" />
+                </div>
+                <div id="mobileheader" class="displayNoneDesktop" style="width: 100%; text-align: center; font-family: Calibri; font-size: 20px; color: #0084c3; padding-top: 6%;">
+                    Enterprise Applications Store
+                </div>
+                <div id="divTexts" class="nine columns displayNoneMobile" style="color: #0084c3; margin-left: 10%; padding-top: 2.5%;font-family:Calibri;">
+                    <span>Enterprise Applications Store</span>
+                </div>
+            </div>
+            <div id="mobileMenuheader">
+                <div class="six columns displayNoneDesktop">
+                    <img id="mobileMenuHeader" style="float: left; margin-top: -1%" src="assests/images/mobileMenu.png"
+                        alt="menuLogo" />
+                </div>
+                <!-- <a href="#">
+                    <input id="mobileMenuHeaderDummy" type="button" value="Menu 1" style="background-color: #ff7f27;
+                        width: 35%; color: White; float: left;" class="four columns shadow marginLeft0per" /></a>-->
+                <div id="menuBar" class="sixteen columns HiddenDiv" style="margin-top: 1%; margin-left: 1.5%">
+                    <a href="Index.html" id="menu1">
+                        <div  class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu1" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per selectedMenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Applications - sel.png" />Applications
+                            </span>
+                        </div>
+                    </a><a href="AdminPage.htm" id="menu2">
+                        <div id="Div1" class="menuItems columns" style="width: 20%">
+                            <span id="btnMenu2" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per ">
+                                <img style="margin-right: 4%;" src="assests/images/Admin.png" />Admin </span>
+                        </div>
+                    </a><a href="DashboardPage.htm" id="menu3">
+                        <div id="Div2" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu3" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Dashboard.png" />
+                                Dashboard</span>
+                        </div>
+                    </a><a href="SupportPage.htm" id="menu4">
+                        <div id="Div3" class="menuItems four columns" style="width: 20%">
+                            <span id="btnMenu4" style="text-align: center; height: 50px; padding-top: 10px;"
+                                class="sixteen columns shadow marginLeft0per MenuColor">
+                                <img style="margin-right: 4%;" src="assests/images/Support.png" />
+                                Support</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="mobileSubMenuHeader">
+                    <a href="#">
+                        <input id="mobilesubMenuHeader" type="button" value="Categories" style="width: 55%;margin-right:5%"
+                            class="four columns shadow marginLeft0per" /></a>
+                    <div id="SubmenuBar" class="sixteen columns displayNoneDesktop" style="margin-top: 1%;">
+                        <div id="Menu2-1">
+                            <a href="#">
+                                <input id="subMenuBtn1" type="button" value="All(2)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-2">
+                            <a href="#">
+                                <input id="subMenuBtn2" type="button" value="Manufacturing(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-3">
+                            <a href="#">
+                                <input id="subMenuBtn3" type="button" value="Finance" style="height: 50px; width: 18%;"
+                                    class="four columns marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-4">
+                            <a href="#">
+                                <input id="subMenuBtn4" type="button" value="Retail(1)" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                        <div id="Menu2-5">
+                            <a href="#">
+                                <input id="subMenuBtn5" type="button" value="Logistics" style="height: 50px; width: 18%;"
+                                    class="four columns shadow marginLeft0per subMenuTabsColor" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen columns" style="margin-top: 2%; float: left">
+               <div id="sub-menu" class="three columns" style="margin-top: 1%; margin-left: 3%; height: 620px;">
+                    <div class="three columns" style="width: 95%">
+                        <ul>
+                            <li id="bid1" style="height: 40px;" class="marginBottom">
+                                <div id="id1" style="width: 100%; font-size:14px; font-weight:bold; height: 100%; cursor: default; padding-top:15px; padding-left:10px;" class="">Categories</div>
+                                <!--<input id="id1" type="text" readonly="readonly" style="width: 100%; height: 100%;
+                                    cursor: default;" class="subMenuTabsColor"/>-->
+                            </li>
+                            <li id="bid2" style="height: 50px;" class="marginBottom">
+                                <div id="id2" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuSelectedTabsColor submenuItems">All(2)</div>
+                            <li id="bid3" style="height: 50px;" class="marginBottom">
+                                <div id="id3" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Manufacturing(1)</div>
+                            <li id="bid4" style="height: 50px; color: Black;" class="marginBottom">
+                                 <div id="id4" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Finance</div>
+                            <li id="bid5" style="height: 50px; color: Black;" class="marginBottom">
+                                <div id="id5" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Retail(1)</div>
+                            <li id="bid6" style="height: 50px; color: Black;" class="marginBottom">
+                                <div id="id6" style="width: 100%; height: 100%; cursor: pointer; padding-top:15px; padding-left:10px;" class="subMenuTabsColor submenuItems">Logistics</div>
+                        </ul>
+                    </div>
+
+                </div>
+                <!--<div id="contentBox" class="eleven columns shadowBorder" style="height: 600px; margin-top: 1%;
+                    float: left; width: 47%;">
+                </div>-->
+                <div id="supportContentBox" class="eleven columns displayNone" style="margin-top: 1%;">
+                    <div id="doctab" class="sixteen columns">
+                        <div class="four columns borderShadow">
+                            <img src="assests/images/file.png" alt="No Image" />
+                        </div>
+                        <div class="four columns borderShadow">
+                            <img src="assests/images/Usermanual.png" alt="No Image" />
+                        </div>
+                        <div class="four columns borderShadow">
+                            <img src="assests/images/adminmanual.png" alt="No Image" />
+                        </div>
+                        <div class="four columns borderShadow ">
+                            <img  src="assests/images/uploadmanual.png" alt="No Image" />
+
+                        </div>
+                    </div>
+                    <div id="contactustab">
+                        <div id="contactme" class="fourteen columns contactusshadow" style="padding-top: 1%; padding-bottom: 1%; padding-left: 2%;">
+                            <h6>Level 1</h6>
+                            <span>XYZ Name<br />
+                                Address<br />
+                                <u>emailid : xyz@email.com</u>
+                                <br />
+                                Contact Number</span>
+                        </div>
+                    </div>
+                    <div id="logticket" class="fourteen columns contactusshadow" style=" margin-left:0px; margin-bottom: 1%;  padding-left: 2%; padding-top: 1%;">
+                        <div id="">
+                            <span style="font-size: 16px; color: Black;">Applicants Name:</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;">XYZ Name</span>
+                        </div>
+                        <div id="">
+                            <span style="font-size: 16px; color: Black;">User ID:</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;">123456</span>
+                        </div>
+                        <div id="">
+                            <span style="font-size: 16px; color: Black;">Organization:</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;">Company Name</span>
+                        </div>
+                        <div id="">
+                            <span style="font-size: 16px; color: Black;">Department:</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;">ABC</span>
+                        </div>
+                        <div id="">
+                            <span style="font-size: 16px; color: Black;">Designation:</span>
+                        </div>
+                        <div>
+                            <span style="font-size: 12px;">Lead</span>
+                        </div>
+                        <div id="">
+                            <div>
+                                <span id="" style="font-size: 16px; color: Black;">Select ticket Type</span>
+                            </div>
+                            <div>
+                                <select id="tcktdd">
+                                    <option value="" selected="selected">Admin Module*</option>
+                                    <option value="">User Module</option>
+                                    <option value="">FAQ and Manuals</option>
+                                    <option value="">Upload App</option>
+                                </select>
+                            </div>
+                            <div id="logSubmit">
+                                <input type="button" value="Submit" size="30%" />
+                                <input type="button" value="Cancel" size="40%" style="margin-left: 5%;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer box design Starts here-->
+            <div id="footer" class="sixteen columns" style="margin-left: 12%; width: 73%; margin-top: 1%;clear:both;">
+                <div id="footer1" class="sixteen columns marginLeft0per footerColor" style="font-family: Arial;
+                    font-size: 14px; padding-top: 4px; color: grey; text-align: center;">
+                    Copyright 2013@company name Inc.</div>
+                <!--<div id="footer2" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 2</div>
+            <div id="footer3" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 3</div>-->
+            </div>
+        <!--Footer box design Ends here-->
+        <!--Content box design Ends here-->
+    </div>
+</body>
+</html>
